@@ -94,3 +94,25 @@ p {
 }
 
 
+
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+
+    .mainintro
+    {
+        width: 95%;
+        margin: 70px auto;
+    }
+
+    p {
+        font-size: 2em;
+        line-height: 1.8em;
+        margin-bottom: 1em;
+     }
+    
+  }
+
+
+
+
