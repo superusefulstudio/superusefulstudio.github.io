@@ -1,6 +1,27 @@
 html{
-    font-size: 16px;
-    color: #414141
+    font-size: 18px;
+    color: #414141;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+body{
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+}
+v
+h1,h2,h3,h4,h5,h6{
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin-bottom: 3rem;
 }
 
 
@@ -19,9 +40,11 @@ p {
     font-family: 'OrkneyLight';
     font-weight: light;
     font-style: normal;
-    font-size: 1.8em;
-    line-height: 1.6em;
-    margin-bottom: 0.6em;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    margin-bottom: 0.6rem;
+    padding: 0;
+    letter-spacing: -0.04rem;
  }
 
  b{
@@ -41,6 +64,7 @@ p {
     font-style: normal;
     color: #414141;
     font-size: 2.4em;
+    background-repeat: no-repeat;
 }
 
 .topbar{
@@ -48,67 +72,141 @@ p {
     border-bottom: 1px solid #96FFBE;
 }
 
+.studio-logo
+{
+    background-image: url('../logo/Superusefulstudio.png');
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 40px;
+}
+
 .mainintro
 {
-    width: 60%;
-    margin: 200px auto;
-    text-align: left;
     animation: fadein 3s;
     -moz-animation: fadein 3s; /* Firefox */
     -webkit-animation: fadein 3s; /* Safari and Chrome */
     -o-animation: fadein 3s; /* Opera */
 }
 
-
-@keyframes fadein {
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-moz-keyframes fadein { /* Firefox */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-webkit-keyframes fadein { /* Safari and Chrome */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-o-keyframes fadein { /* Opera */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity: 1;
-    }
+.container{
+    width: 66%;
+    max-width: 1200px;
+    margin: 0px auto;
+    text-align: left;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 
+.showcase {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;  
+}
+
+.showcase .container h1{
+    font-size: 2rem;
+}
+
+.showcase .container p{
+    font-size: 1.2rem;
+}
+
+.showcase .container img
+{
+    display: block;
+    margin-top: 50px;
+}
 
 
-/* On screens that are 600px or less, set the background color to olive */
-@media screen and (max-width: 600px) {
+.bupa {
+    background-image: linear-gradient(180deg, #019FDA 0%, #0088DA 100%);
+}
 
-    .mainintro
+.concrete{
+    background-image: linear-gradient(180deg, #575A6B 2%, #3D4251 100%);
+}
+
+.bupa .container > *, .concrete .container > *
+{
+    color: white;
+}
+
+
+.shadow_bupa {
+    box-shadow: 0 8px 17px 0 rgba(84,110,147,0.30);
+ }
+
+ .shadow_concrete {
+    box-shadow: 0 7px 15px 0 rgba(0,0,0,0.30);
+ }
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 900px) {
+  
+    .container{
+        width: 90%;
+        max-width: 1200px;
+        margin: 0px auto;
+        text-align: left;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+}
+
+
+
+
+/* iPhone XR*/
+@media only screen 
+    and (device-width : 414px) 
+    and (device-height : 896px) 
+    and (-webkit-device-pixel-ratio : 2)
     {
-        width: 95%;
-        margin: 70px auto;
+
+    .container{
+        width: 90%;
+        margin: 0px auto;
+        text-align: left;
+        padding-top: 150px;
+        padding-bottom: 200px;
+    }
+
+    b{
+        letter-spacing: -0.08rem;
     }
 
     p {
-        font-size: 2em;
-        line-height: 1.8em;
-        margin-bottom: 1em;
+        font-size: 2.8rem;
+        line-height: 4.8rem;
+        
+     }
+
+
+
+    .showcase .container h1{
+        font-size: 3.6rem;
+    }
+
+    .showcase .container p{
+        font-size: 2.4rem;
+        line-height: 4.8rem;
+    }
+
+     .studio-logo
+     {
+         background-image: url('../logo/Superusefulstudio@2x.png');
+         background-repeat: no-repeat;
+         width: 814px;
+         height: 100px;
      }
     
   }
