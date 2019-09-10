@@ -21,34 +21,46 @@ h1,h2,h3,h4,h5,h6{
 }
 
 h1{
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 
 ::-moz-selection { /* Code for Firefox */
     color: white;
     background:#50C27B;
-  }
+}
   
-  ::selection {
+::selection {
     color: white;
     background:#50C27B;
-  }
+}
 
+a{
+    color: #50C27B;
+    text-decoration: none;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+a:hover{
+    color: white;
+    background:#50C27B;
+}
 
 p {
-    font-family: 'OrkneyLight';
-    font-weight: light;
+    font-family: 'NowRegular';
+    font-weight: 500;
     font-style: normal;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     line-height: 2.4rem;
     margin-bottom: 0.6rem;
     padding: 0;
-    letter-spacing: -0.04rem;
+    letter-spacing: -0.4px;
+
  }
 
  b{
-    font-family: 'OrkneyRegular';
+    font-family: 'NowRegular';
     font-weight: bold;
     font-style: normal;
 }
@@ -72,6 +84,8 @@ p {
     border-bottom: 1px solid #96FFBE;
 }
 
+
+
 .studio-logo
 {
     background-image: url('../logo/Superusefulstudio.png');
@@ -80,13 +94,7 @@ p {
     height: 40px;
 }
 
-.mainintro
-{
-    animation: fadein 3s;
-    -moz-animation: fadein 3s; /* Firefox */
-    -webkit-animation: fadein 3s; /* Safari and Chrome */
-    -o-animation: fadein 3s; /* Opera */
-}
+
 
 .container{
     width: 66%;
@@ -103,6 +111,7 @@ p {
     margin: 0;
     padding: 0;
     width: 100%;  
+
 }
 
 .showcase .container h1{
@@ -113,11 +122,19 @@ p {
     font-size: 1.2rem;
 }
 
-.showcase .container img
+
+.showpiece
 {
-    display: block;
+    opacity: 0;
     margin-top: 50px;
 }
+.showpiece img
+{
+    display: block;
+}
+
+
+
 
 
 .bupa {
@@ -128,7 +145,11 @@ p {
     background-image: linear-gradient(180deg, #575A6B 2%, #3D4251 100%);
 }
 
-.bupa .container > *, .concrete .container > *
+.ballet{
+    background-image: linear-gradient(225deg, #AFA5A5 0%, #808080 100%);
+}
+
+.bupa .container > *, .concrete .container > *, .ballet .container > *, .concrete .container > *
 {
     color: white;
 }
@@ -142,6 +163,10 @@ p {
     box-shadow: 0 7px 15px 0 rgba(0,0,0,0.30);
  }
 
+ .shadow_ballet
+ {
+    box-shadow: 0 7px 60px 0 rgba(30,10,10,0.20);
+ }
 
 
 
