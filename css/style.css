@@ -13,16 +13,19 @@ body{
     padding: 0;
     margin: 0;
 }
-v
+
+
 h1,h2,h3,h4,h5,h6{
+    font-family: 'NowMedium';
+    font-weight: 700;
+    font-style: normal;
     font-size: 2rem;
     margin: 0;
     padding: 0;
+    margin-bottom: 1rem;
+    letter-spacing: -0.6px;
 }
 
-h1{
-    margin-bottom: 2rem;
-}
 
 
 ::-moz-selection { /* Code for Firefox */
@@ -149,6 +152,10 @@ p {
     background-image: linear-gradient(225deg, #AFA5A5 0%, #808080 100%);
 }
 
+.gstar {
+    background-image: linear-gradient(230deg, #ACACC5 0%, #E3E3E9 100%);
+}
+
 .bupa .container > *, .concrete .container > *, .ballet .container > *, .concrete .container > *
 {
     color: white;
@@ -164,6 +171,11 @@ p {
  }
 
  .shadow_ballet
+ {
+    box-shadow: 0 7px 60px 0 rgba(30,10,10,0.20);
+ }
+
+ .shadow_gstar
  {
     box-shadow: 0 7px 60px 0 rgba(30,10,10,0.20);
  }
