@@ -9,4 +9,4 @@ Super useful studio is my playground where you can preview some of my work.
 
 Find out more about me or say hi
 
-Checkout the site on github here https://superusfulstudio.github.io
+Checkout the site on github here https://superusefulstudio.github.io
