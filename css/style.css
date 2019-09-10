@@ -149,18 +149,7 @@ p {
 
 
 
-@media only screen and (max-width : 900px) {
-  
-    .container{
-        width: 90%;
-        max-width: 1200px;
-        margin: 0px auto;
-        text-align: left;
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
 
-}
 
 
 /*Responsive Desktop*/
@@ -216,8 +205,8 @@ and (max-device-width : 864px) {
     }
     
     .showcase .container p{
-        font-size: 2.4rem;
-        line-height: 3.4rem;
+        font-size: 2.6rem;
+        line-height: 3.8rem;
     }
 
     .showcase .container img
