@@ -1,4 +1,4 @@
-# superusfulstudio.github.io
+# superusefulstudio.github.io
 
 
 ![Alt text](https://raw.githubusercontent.com/superusefulstudio/superusfulstudio.github.io/master/logo/Superusefulstudio%402x.png?raw=true "SuperUsefulStudio") .  
