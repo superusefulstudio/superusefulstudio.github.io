@@ -1,17 +1,18 @@
 
-var waypoints = $('.showpiece').waypoint(function(direction) {
-    
+$('.showcase .container .showpiece').waypoint(function(direction) {    
     if(direction === 'down')
     {
         $(this.element).animate( {opacity: 1} );
     }
-    
-    
   }, {
-    offset: '75%'
+    offset: '65%'
   })
 
 
+
+  $(document).ready(function() {
+    $('#myvideo').play()
+});
 
 
 var username = "petermarkellis";
