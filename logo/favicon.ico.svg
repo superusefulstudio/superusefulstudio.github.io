@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>favicon.ico</title>
+    <desc>Created with Sketch.</desc>
+    <g id="favicon.ico" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="16" height="16"></rect>
+        <path d="M-180,0 L540,0 L540,336 C540,349.254834 529.254834,360 516,360 L-156,360 C-169.254834,360 -180,349.254834 -180,336 L-180,0 L-180,0 Z" id="Rectangle" fill="#50C27B"></path>
+        <text id="S" font-family="Averta-Bold, Averta" font-size="14" font-weight="bold" letter-spacing="-0.424242424" fill="#FFFFFF">
+            <tspan x="4.12423059" y="13">S</tspan>
+        </text>
+    </g>
+</svg>
