@@ -327,7 +327,7 @@ nav ul li a{
  }
 
  footer .footer_logo span{
-     width: 40%;
+     width: 60%;
      max-width: 500px;
      margin: 0 auto;
  }
@@ -335,7 +335,7 @@ nav ul li a{
  footer .footer_logo img
  {
     display: block;
-    margin: 0 auto;
+    margin: 50px auto;
     width: 100%;
  }
 
@@ -450,9 +450,10 @@ nav ul li a{
             margin: 0 auto;
             text-align: center;
             color: white;
-            font-size: 2.6rem;
+            font-size: 3rem;
             margin-bottom: 0rem;
          }
+
 
     }
 
