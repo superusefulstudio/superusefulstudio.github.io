@@ -69,7 +69,7 @@ p {
     letter-spacing: -0.4px;
  }
 
- small
+ .showcase .container .showpiece small
  {
     display: block;
     font-size: 1.2rem;
@@ -101,9 +101,7 @@ p {
 
 }
 
-.studio-logo 
-{   
-}
+
 
 .studio-logo img
 {
@@ -123,8 +121,8 @@ p {
     max-width: 900px;
     margin: 0px auto;
     text-align: left;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 3.5rem;
+    padding-bottom: 3rem;
     display: flex;
     flex-direction: column;
 }
@@ -136,7 +134,7 @@ p {
     margin: 0;
     padding: 0;
     width: 100%;  
-
+    
 }
 
 
@@ -168,6 +166,9 @@ p {
     align-items: center;
 }
 
+
+
+
 .showcase  .container .showpieces .mobileitem {
     display: block;
     width: 100%;
@@ -181,10 +182,17 @@ p {
   }
 
 
+  .showcase  .container .showpiece img {
+    border-radius: 5px;
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    filter: drop-shadow(0px 0px 10px rgba(0,0,0,.2));
+  }
 
   .showcase  .container .showpieces .mobileitem img {
     display: block;
     width: 100%;
+    
   }
 
 
@@ -304,7 +312,17 @@ p {
 
         .showcase  .container section
         {
-            margin-bottom: 3rem;
+            margin-bottom: 4rem;
+        }
+
+        .showcase .container .showpiece small
+        {
+           display: block;
+           font-size: 2.8rem;
+           line-height: 3.2rem;
+           margin-top: 1.8rem;
+           margin-bottom: 2.2rem;
+           opacity: 0.7;
         }
 
     }
