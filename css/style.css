@@ -196,6 +196,8 @@ nav ul li a{
 }
 
 
+
+
 /* To show three images in a row*/
 .showcase  .container .showpieces
 {
@@ -270,7 +272,23 @@ nav ul li a{
     background-image: linear-gradient(180deg, #646464 0%, #252525 100%);
 }
 
+.oneoneeightfrance
+{
+    background-image: linear-gradient(184deg, #D9C9C9 4%, #E5EDF1 93%); 
+}
 
+.oneoneeightdispo
+{
+    background-image: linear-gradient(0deg, #96BDDB 0%, #E5EDF1 100%);
+}
+
+
+.showpiece img, .showpieces .mobileitem img{
+    filter: drop-shadow(0px 0px 10px rgba(0,0,0,.2));
+
+}
+
+/*
 .shadow_bupa {
     box-shadow: 0 8px 17px 0 rgba(84,110,147,0.30);
  }
@@ -287,7 +305,7 @@ nav ul li a{
  .shadow_gstar
  {
     box-shadow: 0 7px 60px 0 rgba(30,10,10,0.20);
- }
+ }*/
 
 
 
