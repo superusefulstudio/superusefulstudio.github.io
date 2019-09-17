@@ -1,12 +1,15 @@
 * {
-    margin: 0;
-   padding: 0;
+    margin: 0;  
+    padding: 0;
+    box-sizing: content-box;
 }
 
 html{
-    font-size: 18px;
+    font-size: 100%;
     color: #414141;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'NowMedium', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-style: normal;
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -61,10 +64,18 @@ p {
     font-style: normal;
     font-size: 1.8rem;
     line-height: 2.4rem;
-    margin-bottom: 0.6rem;
+    margin-bottom: 0.5rem;
     padding: 0;
     letter-spacing: -0.4px;
+ }
 
+ small
+ {
+    display: block;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    margin-top: 1rem;
+    opacity: 0.7;
  }
 
  b{
@@ -77,43 +88,47 @@ p {
     color: #50C27B;
 }
 
-.studio-logo
+
+
+
+
+
+
+
+.topbar{
+    display: block;
+    width: 100%;
+
+}
+
+.studio-logo 
+{   
+}
+
+.studio-logo img
 {
-    font-family: 'OrkneyRegular';
-    font-weight: bold;
-    font-style: normal;
-    color: #414141;
-    font-size: 2.4em;
-    background-repeat: no-repeat;
-}
+    display: block;
+    margin: 4% auto;
+    height: 10%;
+    max-height: 50px;
 
-.topbar{
-    padding: 20px 50px 20px 50px;
-    border-bottom: 1px solid #96FFBE;
 }
 
 
-
-.studio-logo
-{
-    background-image: url('../logo/Superusefulstudio_ol.svg');
-    background-repeat: no-repeat;
-    width: 280px;
-    height: 40px;
-}
 
 
 
 .container{
     width: 66%;
-    max-width: 1200px;
+    max-width: 900px;
     margin: 0px auto;
     text-align: left;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     display: flex;
     flex-direction: column;
 }
+
 
 
 .showcase {
@@ -124,58 +139,55 @@ p {
 
 }
 
-.showcase .container h1{
-    font-size: 2rem;
-}
-
-.showcase .container .description p{
-    font-size: 1.2rem;
-}
-
-.description
-{
-    opacity: 1;
-}
 
 
-.showpiece
+.showcase  .container .showpiece
 {
     opacity: 0;
-    margin-top: 50px;
 }
 
-
-.showpiece img
+.showcase  .container section
 {
-    border-radius: 10px;
+    margin-bottom: 2rem;
 }
 
-.showcase  .container .showpiece p
+.showcase  .container .showpiece
 {
-    font-size: 1.1rem;
+    margin-bottom: 3rem;
 }
 
 
-.showpieces
+/* To show three images in a row*/
+.showcase  .container .showpieces
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 100%;
-    margin: 50px auto;
+    margin: 2rem auto 2rem;
+    align-items: center;
 }
 
-.showpieces img
-{
+.showcase  .container .showpieces .mobileitem {
+    display: block;
+    width: 100%;
 
-    filter: drop-shadow(0px 0px 10px rgba(0,0,0,.2));
-    width: 250px;
-    height: auto;
-    height: 500px;
-    position: relative;
+    margin: 0 auto;
+    margin-right: 20px;
+  }
+
+  .showcase  .container .showpieces .mobileitem:last-child {
+    margin-right: 0px;
+  }
 
 
-}
+
+  .showcase  .container .showpieces .mobileitem img {
+    display: block;
+    width: 100%;
+  }
+
+
 
 
 
@@ -235,205 +247,69 @@ p {
 
 
 
-
-
-/*Responsive Desktop*/
-
-@media only screen and (max-width : 900px) {
-  
+@media screen 
+  and (max-width: 900px) 
+{
     .container{
         width: 90%;
-        max-width: 1200px;
-        margin: 0px auto;
-        text-align: left;
+        max-width: 90%;
         padding-top: 4rem;
-        padding-bottom: 3rem;
-    }
-
-    .showpieces
-    {
-        flex-direction: column;
-    }
-
-    .showpieces img
-    {
-        margin: 50px auto;
-
+        padding-bottom: 4rem;
 
     }
-
-    p {
-        font-family: 'NowRegular';
-        font-weight: 500;
-        font-style: normal;
-        font-size: 1.4rem;
-        line-height: 2rem;
-        margin-bottom: 0.6rem;
-        padding: 0;
-        letter-spacing: -0.4px;
-    
-     }
-
-    
-
-}
-
-
-
-
-/* Responsive Mobile Web */
-
-@media only screen
-and (min-device-width : 300px)
-and (max-device-width : 864px) {
-
-    .container{
-        width: 90%;
-        margin: 0px auto;
-        text-align: left;
-        padding-top: 10%;
-        padding-bottom: 20%;
-
-    }
-
-
-    .studio-logo
-    {
-        background-image: url('../logo/Superusefulstudio@3x.png');
-        background-repeat: no-repeat;
-        width: 814px;
-        height: 100px;
-    }
-
-    p {
-        font-size: 2.8rem;
-        line-height: 4.8rem;
-     }
-
-     .showcase .container
-     {
-         padding-top: 20rem;
-     }
-
-     .showcase .container h1{
-        font-size: 3rem;
-        margin-bottom: 5rem;
-        margin-top: 4rem;
-    }
-    
-    .showcase .container p{
-        font-size: 2.6rem;
-        line-height: 3.8rem;
-    }
-
-    .showcase .container img
-    {
-        display: block;
-        margin-top: 20%;
-    }
-
-
-
-}
-
-
-/* Responsive Mobile Web Small*/
-
-@media only screen
-and (min-device-width : 200px)
-and (max-device-width : 399px) {
-
-    .container{
-        width: 90%;
-        margin: 0px auto;
-        text-align: left;
-        padding-top: 10%;
-        padding-bottom: 20%;
-    }
-
-    .studio-logo
-    {
-        background-image: url('../logo/Superusefulstudio@3x.png');
-        background-repeat: no-repeat;
-        width: 814px;
-        height: 100px;
-    }
-
-    p {
-        font-size: 3.6rem;
-        line-height: 5.2rem;
-     }
-
-
-     .showcase .container h1{
-        font-size: 4rem;
-        margin-bottom: 5rem;
-        
-    }
-    
-    .showcase .container p{
-        font-size: 3.2rem;
-        line-height: 4.2rem;
-    }
-
-    .showcase .container img
-    {
-        display: block;
-        margin-top: 20%;
-    }
-
 }
 
 
 
 
 
+@media screen 
+  and (max-device-width: 900px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
 
-/* iPhone XR*/
-@media only screen 
-    and (device-width : 414px) 
-    and (device-height : 896px) 
-    and (-webkit-device-pixel-ratio : 2)
-    {
 
-    .container{
-        width: 90%;
-        margin: 0px auto;
-        text-align: left;
-        padding-top: 150px;
-        padding-bottom: 200px;
+        h1,h2,h3,h4,h5,h6{
+            font-size: 4.2rem;
+            line-height: 4.4rem;
+            margin-bottom: 2rem;
+            letter-spacing: -0.6px;
+        }
+
+
+        p {
+            font-size: 4rem;
+            line-height: 6rem;
+         }
+
+
+        .container{
+            width: 94%;
+            max-width: 94%;
+            margin: 0px auto;
+            text-align: left;
+            padding-top: 15%;
+            padding-bottom: 15%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .topbar .studio-logo img 
+        {   
+            display: block;
+            margin: 6% auto;
+            height: 15%;
+            max-height: 100px; 
+        }
+
+
+        .showcase  .container section
+        {
+            margin-bottom: 3rem;
+        }
+
     }
 
-    b{
-        letter-spacing: -0.08rem;
-    }
 
-    p {
-        font-size: 3.6rem;
-        line-height: 5.2rem;
-        
-     }
-
-
-
-    .showcase .container h1{
-        font-size: 3.6rem;
-    }
-
-    .showcase .container p{
-        font-size: 3.2rem;
-        line-height: 4.8rem;
-    }
-
-     .studio-logo
-     {
-         background-image: url('../logo/Superusefulstudio@2x.png');
-         background-repeat: no-repeat;
-         width: 814px;
-         height: 100px;
-     }
-    
-  }
 
 
 
