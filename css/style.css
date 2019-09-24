@@ -182,7 +182,10 @@ nav ul li a{
     margin-bottom: 4rem;
 }
 
-
+.intro p{
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+}
 
 
 
@@ -452,6 +455,12 @@ nav ul li a{
             display: flex;
             flex-direction: column;
         }
+
+        .intro p{
+            font-size: 3rem;
+            line-height: 4.2rem;
+        }
+        
 
         .topbar .studio-logo img 
         {   
