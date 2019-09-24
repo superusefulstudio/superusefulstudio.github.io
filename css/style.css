@@ -42,11 +42,11 @@ h1,h2,h3,h4,h5,h6{
     font-family: 'Averta-Regular';
     font-weight: 700;
     font-style: normal;
-    font-size: 2rem;
+    font-size: 1.6rem;
     margin: 0;
     padding: 0;
     margin-bottom: 1.5rem;
-    letter-spacing: -0.1px;
+    letter-spacing: -0.3px;
     text-rendering: optimizeLegibility;
 }
 
@@ -79,18 +79,19 @@ p {
     font-family: 'Averta-Regular';
     font-weight: 500;
     font-style: normal;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     line-height: 2.2rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
     padding: 0;
 
  }
 
  .showcase .container .showpiece small
  {
+    font-family: 'Averta-Regular';
     display: block;
     font-size: 1.3rem;
-    line-height: 1.4rem;
+    line-height: 2rem;
     margin-top: 1rem;
     opacity: 0.7;
  }
@@ -179,6 +180,8 @@ nav ul li a{
 }
 
 .intro{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     margin-bottom: 4rem;
 }
 
@@ -195,7 +198,8 @@ nav ul li a{
     display: block;
     margin: 0;
     padding: 0;
-    width: 100%;  
+    width: 100%; 
+    background-color: #F8F8F8; 
     
 }
 
@@ -230,6 +234,7 @@ nav ul li a{
     width: 100%;
     margin: 2rem auto 2rem;
     align-items: center;
+    
 }
 
 
@@ -248,11 +253,11 @@ nav ul li a{
   }
 
 
-  .showcase  .container .showpiece img {
+  .showcase  .container .showpiece img, .mobileitem img {
     border-radius: 5px;
     -webkit-border-radius: 5px; 
     -moz-border-radius: 5px; 
-    filter: drop-shadow(0px 0px 10px rgba(0,0,0,.2));
+    filter: drop-shadow(0px 0px 30px rgba(0,0,0,.1));
   }
 
   .showcase  .container .showpieces .mobileitem img {
@@ -265,7 +270,7 @@ nav ul li a{
 
 
 
-
+/*
 .white > *
 {
     color: white;
@@ -321,6 +326,9 @@ nav ul li a{
     filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.1));
 
 }
+*/
+
+
 
 /*
 .shadow_bupa {
@@ -440,8 +448,8 @@ nav ul li a{
         }
 
         p {
-            font-size: 3.4rem;
-            line-height: 5rem;
+            font-size: 2.6rem;
+            line-height: 4rem;
          }
 
 
@@ -450,7 +458,7 @@ nav ul li a{
             max-width: 94%;
             margin: 0px auto;
             text-align: left;
-            padding-top: 15%;
+            padding-top: 10%;
             padding-bottom: 15%;
             display: flex;
             flex-direction: column;
@@ -479,7 +487,7 @@ nav ul li a{
         .showcase .container .showpiece small
         {
            display: block;
-           font-size: 2.8rem;
+           font-size: 2.4rem;
            line-height: 3.2rem;
            margin-top: 1.8rem;
            margin-bottom: 2.2rem;
@@ -490,7 +498,7 @@ nav ul li a{
             margin: 0 auto;
             text-align: center;
             color: white;
-            font-size: 3rem;
+            font-size: 2.4rem;
             margin-bottom: 0rem;
          }
 
