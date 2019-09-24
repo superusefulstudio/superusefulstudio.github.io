@@ -1,0 +1,461 @@
+* {
+    margin: 0;
+   padding: 0;
+   box-sizing: content-box;
+}
+
+html{
+    font-size: 18px;
+    color: #414141;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+body{
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'NowMedium';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1rem;
+    letter-spacing: -0.6px;
+}
+
+
+
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background:#50C27B;
+}
+  
+::selection {
+    color: white;
+    background:#50C27B;
+}
+
+a{
+    color: #50C27B;
+    text-decoration: none;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+a:hover{
+    color: white;
+    background:#50C27B;
+}
+
+p {
+    font-family: 'NowRegular';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    margin-bottom: 0.6rem;
+    padding: 0;
+    letter-spacing: -0.4px;
+
+ }
+
+ b{
+    font-family: 'NowRegular';
+    font-weight: bold;
+    font-style: normal;
+}
+
+.green{
+    color: #50C27B;
+}
+
+
+
+
+.topbar{
+
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #96FFBE;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.studio-logo 
+{   
+    width: auto;
+    height: 30px;
+}
+
+.studio-logo img
+{
+    display: block;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+
+
+
+
+
+.container{
+    width: 66%;
+    max-width: 1200px;
+    margin: 0px auto;
+    text-align: left;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.showcase {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;  
+
+}
+
+.showcase .container h1{
+    font-size: 2rem;
+}
+
+.showcase .container .description p{
+    font-size: 1.4rem;
+}
+
+.description
+{
+    opacity: 1;
+}
+
+
+.showpiece
+{
+    opacity: 0;
+    margin-top: 50px;
+}
+
+
+.showpiece img
+{
+    border-radius: 10px;
+}
+
+.showcase  .container .showpiece p
+{
+    font-size: 1.1rem;
+}
+
+
+.showpieces
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 50px auto;
+}
+
+.showpieces img
+{
+
+    filter: drop-shadow(0px 0px 10px rgba(0,0,0,.2));
+    width: 250px;
+    height: auto;
+    height: 500px;
+    position: relative;
+
+
+}
+
+
+
+
+
+
+
+.bupa {
+    background-image: linear-gradient(180deg, #019FDA 0%, #0088DA 100%);
+}
+
+.concrete{
+    background-image: linear-gradient(180deg, #232840 2%, #3D4251 100%);
+}
+
+.ballet{
+    background-image: linear-gradient(225deg, #AFA5A5 0%, #808080 100%);
+}
+
+.gstar {
+    background-image: linear-gradient(230deg, #ACACC5 0%, #E3E3E9 100%);
+}
+
+.bupa .container > *, .concrete .container > *, .ballet .container > *, .concrete .container > *, .magnum .container > *
+{
+    color: white;
+}
+
+.magnum
+{
+    background-image: linear-gradient(180deg, #646464 0%, #252525 100%);
+}
+
+
+.shadow_bupa {
+    box-shadow: 0 8px 17px 0 rgba(84,110,147,0.30);
+ }
+
+ .shadow_concrete {
+    box-shadow: 0 7px 15px 0 rgba(0,0,0,0.30);
+ }
+
+ .shadow_ballet
+ {
+    box-shadow: 0 7px 60px 0 rgba(30,10,10,0.20);
+ }
+
+ .shadow_gstar
+ {
+    box-shadow: 0 7px 60px 0 rgba(30,10,10,0.20);
+ }
+
+
+
+
+
+
+
+
+
+
+/*Responsive Desktop*/
+
+@media only screen and (max-width : 900px) {
+  
+    .container{
+        width: 90%;
+        max-width: 1200px;
+        margin: 0px auto;
+        text-align: left;
+        padding-top: 4rem;
+        padding-bottom: 3rem;
+    }
+
+    .showpieces
+    {
+        flex-direction: column;
+    }
+
+    .showpieces img
+    {
+        margin: 50px auto;
+
+
+    }
+
+    p {
+        font-family: 'NowRegular';
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1.4rem;
+        line-height: 2rem;
+        margin-bottom: 0.6rem;
+        padding: 0;
+        letter-spacing: -0.4px;
+    
+     }
+
+    
+
+}
+
+
+
+
+/* Responsive Mobile Web */
+
+@media only screen
+and (min-device-width : 300px)
+and (max-device-width : 864px) {
+
+    .container{
+        width: 90%;
+        margin: 0px auto;
+        text-align: left;
+        padding-top: 10%;
+        padding-bottom: 20%;
+
+    }
+
+
+    .studio-logo
+    {
+        background-image: url('../logo/Superusefulstudio@3x.png');
+        background-repeat: no-repeat;
+        width: 814px;
+        height: 100px;
+    }
+
+    p {
+        font-size: 2.8rem;
+        line-height: 4.8rem;
+     }
+
+     .showcase .container
+     {
+         padding-top: 2rem;
+     }
+
+     .showcase .container h1{
+        font-size: 3rem;
+        margin-bottom: 5rem;
+        margin-top: 4rem;
+    }
+    
+    .showcase .container p{
+        font-size: 2.6rem;
+        line-height: 3.8rem;
+    }
+
+    .showcase .container img
+    {
+        display: block;
+        margin-top: 20%;
+    }
+
+
+
+}
+
+
+/* Responsive Mobile Web Small*/
+
+@media only screen
+and (min-device-width : 200px)
+and (max-device-width : 399px) {
+
+    .container{
+        width: 90%;
+        margin: 0px auto;
+        text-align: left;
+        padding-top: 10%;
+        padding-bottom: 20%;
+    }
+
+    
+    .studio-logo
+    {
+        background-image: url('../logo/Superusefulstudio@3x.png');
+        background-repeat: no-repeat;
+        width: 814px;
+        height: 100px;
+    }
+
+    p {
+        font-size: 3.6rem;
+        line-height: 5.2rem;
+     }
+
+
+     .showcase .container h1{
+        font-size: 4rem;
+        margin-bottom: 5rem;
+        
+    }
+    
+    .showcase .container p{
+        font-size: 3.2rem;
+        line-height: 4.2rem;
+    }
+
+    .showcase .container img
+    {
+        display: block;
+        margin-top: 20%;
+    }
+
+}
+
+
+
+
+
+
+/* iPhone XR*/
+@media only screen 
+    and (device-width : 414px) 
+    and (device-height : 896px) 
+    and (-webkit-device-pixel-ratio : 2)
+    {
+
+    .container{
+        width: 90%;
+        margin: 0px auto;
+        text-align: left;
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+    }
+
+    .topbar
+    {
+        margin-bottom: 10%;
+    }
+
+    .intro
+    {
+        padding-bottom: 20%;
+    }
+
+    b{
+        letter-spacing: -0.08rem;
+    }
+
+    p {
+        font-size: 3.6rem;
+        line-height: 5.2rem;
+        
+     }
+
+     .showcase .container
+     {
+         padding-top: 20rem;
+     }
+
+    .showcase .container .description h1{
+        font-size: 3.6rem;
+    }
+
+    .showcase .container .description p{
+        font-size: 3.2rem;
+        line-height: 4.8rem;
+    }
+
+     .studio-logo
+     {
+         background-image: url('../logo/Superusefulstudio@2x.png');
+         background-repeat: no-repeat;
+         width: 814px;
+         height: 100px;
+     }
+    
+  }
+
+
+
+

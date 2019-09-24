@@ -1,17 +1,21 @@
 
-$('.showcase .container .showpiece').waypoint(function(direction) {    
-    if(direction === 'down')
-    {
-        $(this.element).animate( {opacity: 1} );
-    }
-  }, {
-    offset: '65%'
-  })
 
+// A $( document ).ready() block.
+$( document ).ready(function() {
 
+  $('.showpiece img, .mobileitem').waypoint
+    (function(direction) {    
+      if(direction === 'down')
+      {
+          $(this.element).animate( { opacity: 1} );
+      }
+      else {
+        //$(this.element).animate({ opacity: 0 })
+      }
+    }, {
+      offset: '65%'
+    });
 
-  $(document).ready(function() {
-    $('#myvideo').play()
 });
 
 
