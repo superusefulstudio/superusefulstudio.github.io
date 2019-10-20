@@ -1,19 +1,26 @@
 
-
 // A $( document ).ready() block.
 $( document ).ready(function() {
 
-  $('.showpiece img, .mobileitem').waypoint
-    (function(direction) {    
+$('.showcase').css('opacity', 0) // immediately hide element
+
+  $('.showcase').waypoint
+    (function(direction) {  
+        
       if(direction === 'down')
-      {
+      { 
+          console.log('scrolling down');
           $(this.element).animate( { opacity: 1} );
+          //$(this.element).animate({ opacity: 1 })
+          //$(this.element).addClass('animated fadeInUp');
       }
       else {
-        //$(this.element).animate({ opacity: 0 })
+          console.log('scrolling up');
+          //$(this.element).animate({ opacity: 0 })
+          //$(this.element).removeClass('fadeInUp');
       }
     }, {
-      offset: '65%'
+      offset: '45%'
     });
 
 });
