@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  color: #414141;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: "Averta-Regular";
+  src: url("/Averta-Regular.023efc7b.eot");
+  src: url("/Averta-Regular.023efc7b.eot?#iefix") format("embedded-opentype"), url("/Averta-Regular.8242c838.svg#Averta-Regular") format("svg"), url("/Averta-Regular.eeaef5f1.ttf") format("truetype"), url("/Averta-Regular.5075ada2.woff") format("woff"), url("/Averta-Regular.cfcdedb2.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Averta-Semibold";
+  src: url("/Averta-Semibold.0ef52abe.eot");
+  src: url("/Averta-Semibold.0ef52abe.eot?#iefix") format("embedded-opentype"), url("/Averta-Semibold.52335d9c.svg#Averta-Semibold") format("svg"), url("/Averta-Semibold.9abafd41.ttf") format("truetype"), url("/Averta-Semibold.45b667ba.woff") format("woff"), url("/Averta-Semibold.8790dbee.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Averta-Semibold";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.3px;
+  text-rendering: optimizeLegibility;
+}
+
+h1 {
+  font-size: 5rem;
+  line-height: 6rem;
+}
+
+h2 {
+  font-size: 4rem;
+  line-height: 4.6rem;
+}
+
+h3 {
+  font-size: 3rem;
+  line-height: 3.2rem;
+}
+
+h4 {
+  font-size: 2.2rem;
+  line-height: 3rem;
+}
+
+h5 {
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+}
+
+h6 {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+}
+
+p, a {
+  font-family: "Averta-Regular";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.3px;
+  text-rendering: optimizeLegibility;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+main header {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  padding: 20px;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+main header .logo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+main .container {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  border: 20px solid white;
+  background: linear-gradient(180.68deg, #2B3830 1.81%, #2E302F 99.4%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .container .content {
+  width: 80%;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+main .container * {
+  color: white;
+}
+
+.highlight {
+  display: inline-block;
+  color: white;
+  background-color: #50C27B;
+  padding: 4px;
+}
+
+/* Hyperlinks */
+a {
+  display: inline-block;
+  color: #409560;
+  text-decoration: none;
+  position: relative;
+  text-decoration: none;
+}
+a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: -5px;
+  left: 0;
+  background-color: #50C27B;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+}
+a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 3.8rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  h4 {
+    font-size: 1.8rem;
+  }
+
+  h5 {
+    font-size: 1.6rem;
+  }
+
+  h6 {
+    font-size: 1.4rem;
+  }
+
+  p, a {
+    font-family: "Averta-Regular";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.3px;
+    text-rendering: optimizeLegibility;
+  }
+}
+@media only screen and (max-width: 400px) {
+  h1 {
+    font-size: 3.6rem;
+  }
+
+  h2 {
+    font-size: 2.8rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+  }
+
+  h4 {
+    font-size: 1.6rem;
+  }
+
+  h5 {
+    font-size: 1.4rem;
+  }
+
+  h6 {
+    font-size: 1.2rem;
+  }
+
+  p, a {
+    font-family: "Averta-Regular";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.8rem;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.3px;
+    text-rendering: optimizeLegibility;
+  }
+}
+
+/*# sourceMappingURL=/style.6b54f5b7.css.map */
