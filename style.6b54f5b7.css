@@ -115,15 +115,16 @@ main header .logo img {
 main .container {
   width: 100vw;
   height: 100vh;
+  min-height: 800px;
   border: 20px solid white;
   background: linear-gradient(180.68deg, #2B3830 1.81%, #2E302F 99.4%);
   display: flex;
   align-items: center;
   justify-content: center;
+  box-sizing: border-box;
 }
 main .container .content {
   width: 90%;
-  height: 70%;
 }
 main .container * {
   color: white;
