@@ -1,0 +1,16 @@
+/* TEAM */
+
+Author:              Super Useful Studio
+Contact:             superusefulstudio@gmail.com
+Website:             http://superusefulstudio.com
+Twitter:             @superusefulteam
+Location:            Manchester, United Kingdom
+
+
+/* SITE */
+
+Language:            English
+Standards:           HTML5, CSS3
+Tools:               Parcel, Node, NPM, SCSS
+IDE:                 VSCodium
+Built using:         Mac OS X

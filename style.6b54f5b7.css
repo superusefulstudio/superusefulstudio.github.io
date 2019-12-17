@@ -105,6 +105,7 @@ main header {
   flex-direction: row;
   justify-content: center;
   margin-top: 20px;
+  position: sticky;
 }
 main header .logo img {
   display: block;
@@ -114,7 +115,6 @@ main header .logo img {
 main .container {
   width: 100vw;
   height: 100vh;
-  margin: 0 auto;
   border: 20px solid white;
   background: linear-gradient(180.68deg, #2B3830 1.81%, #2E302F 99.4%);
   display: flex;
@@ -122,10 +122,8 @@ main .container {
   justify-content: center;
 }
 main .container .content {
-  width: 80%;
-  max-width: 1000px;
-  display: flex;
-  flex-direction: column;
+  width: 90%;
+  height: 70%;
 }
 main .container * {
   color: white;
