@@ -11,8 +11,8 @@ ul, ol {
 
 @font-face {
   font-family: "Averta-Regular";
-  src: url("/Averta-Regular.023efc7b.eot");
-  src: url("/Averta-Regular.023efc7b.eot?#iefix") format("embedded-opentype"), url("/Averta-Regular.8242c838.svg#Averta-Regular") format("svg"), url("/Averta-Regular.eeaef5f1.ttf") format("truetype"), url("/Averta-Regular.5075ada2.woff") format("woff"), url("/Averta-Regular.cfcdedb2.woff2") format("woff2");
+  src: url("/Averta-Regular.3bcf914f.eot");
+  src: url("/Averta-Regular.3bcf914f.eot?#iefix") format("embedded-opentype"), url("/Averta-Regular.342a09c4.svg#Averta-Regular") format("svg"), url("/Averta-Regular.d76493dd.ttf") format("truetype"), url("/Averta-Regular.d544669b.woff") format("woff"), url("/Averta-Regular.d9625003.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
@@ -21,8 +21,8 @@ ul, ol {
 }
 @font-face {
   font-family: "Averta-Semibold";
-  src: url("/Averta-Semibold.0ef52abe.eot");
-  src: url("/Averta-Semibold.0ef52abe.eot?#iefix") format("embedded-opentype"), url("/Averta-Semibold.52335d9c.svg#Averta-Regular") format("svg"), url("/Averta-Semibold.9abafd41.ttf") format("truetype"), url("/Averta-Semibold.45b667ba.woff") format("woff"), url("/Averta-Semibold.8790dbee.woff2") format("woff2");
+  src: url("/Averta-Semibold.9f3e0aef.eot");
+  src: url("/Averta-Semibold.9f3e0aef.eot?#iefix") format("embedded-opentype"), url("/Averta-Semibold.85584fa2.svg#Averta-Regular") format("svg"), url("/Averta-Semibold.fbac1c05.ttf") format("truetype"), url("/Averta-Semibold.a8e0b416.woff") format("woff"), url("/Averta-Semibold.e59c5fcc.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
@@ -31,8 +31,8 @@ ul, ol {
 }
 @font-face {
   font-family: "Averta-Bold";
-  src: url("/Averta-Bold.763be7ff.eot");
-  src: url("/Averta-Bold.763be7ff.eot?#iefix") format("embedded-opentype"), url("/Averta-Bold.40aa4a0b.svg#Averta-Bold") format("svg"), url("/Averta-Bold.ff8b53b4.ttf") format("truetype"), url("/Averta-Bold.b95a2888.woff") format("woff"), url("/Averta-Bold.a0c929ff.woff2") format("woff2");
+  src: url("/Averta-Bold.94c2f461.eot");
+  src: url("/Averta-Bold.94c2f461.eot?#iefix") format("embedded-opentype"), url("/Averta-Bold.d97ecc22.svg#Averta-Bold") format("svg"), url("/Averta-Bold.605dba70.ttf") format("truetype"), url("/Averta-Bold.0e1f21aa.woff") format("woff"), url("/Averta-Bold.cccd57b7.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
@@ -244,7 +244,7 @@ body {
 }
 
 #concrete .hero {
-  background-image: url("/concrete-girl-hero.b061b75a.png");
+  background-image: url("/concrete-girl-hero.098b547d.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left bottom;
@@ -939,4 +939,4 @@ footer .content a:hover img {
   }
 }
 
-/*# sourceMappingURL=/main.48b3db1d.css.map */
+/*# sourceMappingURL=/main.8615fc3b.css.map */
