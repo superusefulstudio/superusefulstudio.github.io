@@ -1,7 +1,7 @@
 # superusefulstudio.github.io
 
 
-(https://raw.githubusercontent.com/superusefulstudio/superusefulstudio.github.io/master/logo/Github_social_media_preview_light.jpg?raw=true "SuperUsefulStudio") .  
+(https://raw.githubusercontent.com/superusefulstudio/superusefulstudio.github.io/master/Superusefulstudio_2x.38d24220.png?raw=true "SuperUsefulStudio") .  
 
 Hey there, I’m Peter Ellis a designer specialising in product and concept design. I’ve accumulated over 10 years experience working in both digital agencies, for startups and larger organisations. 
 
